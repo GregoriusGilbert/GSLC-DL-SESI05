@@ -1,0 +1,5 @@
+Kode,Kondisi,Trainable Params,Learning Rate,Epoch Konvergen,Waktu (detik),Val Accuracy,Test Macro F1
+B1,Baseline,11181642,1e-3,6,119.43,0.4388,0.4771
+B2,Feature Extraction,5130,1e-3,17,203.4,0.9662,0.9708
+B3,Progressive Fine-Tuning,8398858,1e-4 & 1e-3,10,145.61,0.9662,0.9793
+B4,Uji Augmentation (FE),5130,1e-3,13,225.06,0.9536,0.9582
